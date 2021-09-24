@@ -1,5 +1,8 @@
 # Importing the necessary packages
-import pandas as pd, config, requests, hashlib, json
+try:
+    import pandas as pd, config, requests, hashlib, json
+except Exception as e12:
+    print(str(e12))
 
 
 # Stroring the path where the csv file is stored and uploading the file
