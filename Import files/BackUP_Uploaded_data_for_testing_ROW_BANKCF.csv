@@ -1,0 +1,6 @@
+bankcfid,redcap_repeat_instrument,redcap_repeat_instance,bankflag,arestid,ptinitials,sex,dob,enroldt,testing,enrolment_complete,consenttitle,consdt,sampleconsent___1,sampleconsent___2,sampleconsent___3,consvalidyn,invalidreas,consent_complete,visitdt,visitno,sampcoll___1,sampcoll___2,sampcoll___3,sampcoll___4,sampcoll___5,sampcoll___6,sampcoll___7,dentrytime,samples_banked_complete,endstuddt,endstudreas___1,endstudreas___2,endstudreas___3,endstudreas___4,endstudreas___5,endstudreas___6,revokeyn,destrdt,end_of_study_complete
+BAN102,,,,,TWIN,2,1995-09-19,2005-11-24,1,2,,,,,,,,,,,,,,,,,,,,2021-05-20,0,0,0,0,0,0,1,2021-06-11,2
+BAN102,consent,1,,,,,,,,,1,2012-02-24,0,1,1,0,Testing,0,,,,,,,,,,,,,,,,,,,,,
+BAN102,consent,2,,,,,,,,,2,,,0,,0,Test,1,,,,,,,,,,,,,,,,,,,,,
+BAN102,consent,3,,,,,,,,,3,2013-05-19,1,1,1,1,,2,,,,,,,,,,,,,,,,,,,,,
+BAN102,samples_banked,1,,,,,,,,,,,,,,,,,2020-02-01 08:16,,1,1,1,1,1,1,1,2020-02-01 08:16,1,,,,,,,,,,
