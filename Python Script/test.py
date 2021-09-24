@@ -1,10 +1,11 @@
 # Importing the necessary packages
-import pandas as pd, config, requests, hashlib, json, os
+import pandas as pd, config, requests, hashlib, json
 
 
 # Stroring the path where the csv file is stored and uploading the file
 try:
     path = input('Enter the full path of the csv file: ')
+    #Examples:
     #/home/newuser/Desktop/BackUP_Uploaded_data_for_testing_ROW_BANKCF.csv
     #/home/newuser/Desktop//Update_New_Record_Upload_ARESTCFSSMCRIOpenSpecimenTest_ImportTemplate_2021-09-20.csv
 except Exception as e1:
@@ -12,6 +13,7 @@ except Exception as e1:
 
 try:
     api_token = input('Enter the api token: ')
+    #Examples:
     # BANK_CF : A410D356AFFEC0B8A2742EBC366784D2 , CF SS MCRI : 370670AAD1220B04EFDE62C152A9DD31
 except Exception as e2:
     print(str(e2))
