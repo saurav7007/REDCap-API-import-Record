@@ -1,5 +1,8 @@
 # Importing the necessary packages
-import pandas as pd, config, requests, hashlib, json
+try:
+    import pandas as pd, config, requests, hashlib, json
+except Exception as e12:
+    print(str(e12))
 
 
 # Stroring the path where the csv file is stored and uploading the file
@@ -7,7 +10,7 @@ try:
     path = input('Enter the full path of the csv file: ')
     #Examples:
     #/home/newuser/Desktop/BackUP_Uploaded_data_for_testing_ROW_BANKCF.csv
-    #/home/newuser/Desktop//Update_New_Record_Upload_ARESTCFSSMCRIOpenSpecimenTest_ImportTemplate_2021-09-20.csv
+    #/home/newuser/Desktop/Update_New_Record_Upload_ARESTCFSSMCRIOpenSpecimenTest_ImportTemplate_2021-09-20.csv
 except Exception as e1:
     print(str(e1))
 
